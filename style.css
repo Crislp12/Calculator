@@ -1,24 +1,27 @@
-div{
-    margin-bottom: 1%;
+.calculator{
+    width: 40%;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #343a40
 }
 
-.label {
-    display: inline;
+#input{
+    width: 96.5%;
+    padding: 1.5%;
+    font-size: 50px;
+    border-radius: 3px ;
 }
 
-.input {
-    border: 1px solid;
-    width: 100px;
-    padding: 5px;
-
+.buttons{
+    display: grid;
+    margin: 0%;
+    padding: 0%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
 }
 
-.function-container{
-    display: flex;
-    gap: 1%;
+.button{
+    font-size: 50px;
+    padding: 5%;
 }
 
-.function{
-    border: 2px solid;
-    padding: 3px;
-}
