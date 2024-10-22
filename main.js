@@ -76,15 +76,7 @@ function appendToDisplaySignDot(input) {
   };
 };
 
-  function calculate () {
-    try {
-       const total = eval(inputDisplay.value);
-       inputDisplay.value = total;
-      }
-      catch(err) {
-        inputDisplay.value = 'Error';
-      };
-  };
+ 
 
 function clearButton() {
   inputDisplay.value = '';
